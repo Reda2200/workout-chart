@@ -27,7 +27,7 @@ If you use Docker pay attention cause the container is builded with charts image
 
 1. **Clone the repository**:  
    ```bash
-   git clone https://github.com/your-username/gym-progress-tracker.git
+   git clone https://github.com/Reda2200/workout-chart.git 
    cd gym-progress-tracker
    ```
 
@@ -99,6 +99,7 @@ Special thanks to [AREA44](https://github.com/AREA44) for the template [Astro Mu
 ## 🔮 Future implementation
 
 - [ ] Add Docker Compose
+- [ ] Add Dropset and failture set in the chart
 - [ ] Create a Docker image throgh gitflow 
 - [ ] Trigger python script at first container start
 - [ ] Schedule crontab to update charts at last data
