@@ -9,8 +9,8 @@ RUN curl -fsSL https://bun.sh/install | bash && \
 
 # Chart generator phase
 WORKDIR /chart-generator
-RUN git clone https://github.com/Reda2200/workout-chart.git ./
-COPY workouts.csv .
+COPY workouts.csv main.py requirements.txt .
+RUN mkdir -p /chart-generator/graph
 RUN pip install --root-user-action=ignore  -r requirements.txt
 RUN python3 main.py
 
