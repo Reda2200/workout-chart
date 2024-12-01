@@ -52,8 +52,8 @@ for exercise, values in data.items():
     plt.legend()
 
     # Salvataggio come PNG
-    filename = os.path.join(output_dir, f'{exercise.replace(" ", "_")}.png')
-    plt.savefig(filename, format='png', dpi=500)
+    filename = os.path.join(output_dir, f'{exercise.replace(" ", "_")}.jpg')
+    plt.savefig(filename, format='jpg', dpi=500)
     plt.close()  # Chiudi la figura per evitare sovrapposizioni
 
-print("Grafici salvati come PNG!")
+print("Grafici salvati come JPG!")
