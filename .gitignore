@@ -1,3 +1,4 @@
 data.csv
 workouts.csv
 graph/*
+!graph/.gitkeep 
